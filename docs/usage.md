@@ -26,7 +26,7 @@ Qdrant是一个高性能向量检索和相似度搜索优化的开源向量数�
 
 
 
-[![img.png](docs/images/img1.png)] ]必填项填写后，点击 下一步 [![img.png](docs/images/img2.png)] [![img.png](docs/images/img3.png)] 创建直接计划后，点击 确定 [![img.png](docs/images/img4.png)] [![img.png](docs/images/img5.png)] 点击部署，执行计划 [![img.png](docs/images/img6.png)]如下图“Apply required resource success. ”即为资源创建完成 [![img.png](docs/images/img7.png)]
+![img.png](images/img1.png) 必填项填写后，点击 下一步 ![img.png](images/img2.png) ![img.png](images/img3.png) 创建直接计划后，点击 确定 ![img.png](images/img4.png) ![img.png](images/img5.png) 点击部署，执行计划 ![img.png](images/img6.png)如下图“Apply required resource success. ”即为资源创建完成 ![img.png](images/img7.png)
 
 
 
@@ -52,7 +52,7 @@ Qdrant是一个高性能向量检索和相似度搜索优化的开源向量数�
 
 前提工作准备好后，选择 ECS 控制台配置跳转到[购买ECS](https://support.huaweicloud.com/qs-ecs/ecs_01_0103.html) 页面，ECS 资源的配置如下图所示：
 
-选择CPU架构 [![img.png](docs/images/img8.png)] 选择服务器规格 [![img.png](docs/images/img9.png)] 选择镜像 [![img.png](docs/images/img10.png)] 其他参数根据实际请客进行填写，填写完成之后，点击立即购买即可 [![img.png](images/img11.png)](https://github.com/15340807762/langchain-chatchat-image/blob/Langchain-Chatchat-0.3.1.3-kunpeng/docs/images/img11.png)
+选择CPU架构 [![img.png](images/img8.png)] 选择服务器规格 [![img.png](images/img9.png)] 选择镜像 [![img.png](images/img10.png)] 其他参数根据实际请客进行填写，填写完成之后，点击立即购买即可 [![img.png](images/img11.png)]
 
 > **值得注意的是：**
 >
@@ -80,13 +80,13 @@ docker run -p 6333:6333 qdrant/qdrant
 
 然后就能使用http://ip+6333/dashboard 打开Qdrant可视化界面了
 
-[![img](docs/images/image_1.png)]
+![img](images/image_1.png)
 
 2.运行代码
 
 python app.py
 
-[![img](docs/images/image_2.png)]
+![img](images/image_2.png)
 
 创建数据库，添加数据，查询结果。
 
